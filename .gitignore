@@ -1,0 +1,24 @@
+# Eclipse
+.settings/
+.metadata/
+.classpath
+.project
+
+# Build output
+bin/
+build/
+out/
+
+# Local configuration and credentials
+*.properties
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local-only files
+.DS_Store
+Thumbs.db
